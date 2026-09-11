@@ -218,11 +218,21 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .safety-note { max-width: var(--max); margin: 1.2rem auto 0; display: grid; grid-template-columns: 1fr 3fr; gap: 1rem; padding: 1rem 0 0; border-top: 3px solid var(--coral); font-size: 1rem; }
 .safety-note strong { font-family: Anybody, sans-serif; }
 .safety-note p { max-width: 46rem; margin: 0; }
+.experiment-bridge { max-width: 27ch; margin: clamp(3.5rem, 7vw, 7rem) 0 0 auto; padding-left: 1.2rem; border-left: 5px solid var(--blue); font: 590 clamp(1.8rem, 3vw, 3.1rem)/1.05 Anybody, sans-serif; font-variation-settings: "wdth" 108; letter-spacing: -.04em; }
 
-.manifesto { min-height: 88svh; display: grid; grid-template-rows: auto 1fr auto; align-items: center; background: var(--yellow); color: #12130f; }
-.manifesto blockquote { max-width: 15ch; margin: clamp(3rem, 7vw, 7rem) auto; font: 580 clamp(3.2rem, 7.8vw, 8.7rem)/.9 Anybody, sans-serif; font-variation-settings: "wdth" 108; letter-spacing: -.065em; }
-.manifesto-small, .manifesto-end { margin: 0; font: 500 .75rem/1.3 "IBM Plex Mono", monospace; }
-.manifesto-end { justify-self: end; font-size: clamp(1rem, 1.7vw, 1.5rem); }
+.possibility { background: var(--ink); color: var(--paper); }
+.possibility-question { min-height: 82svh; display: grid; grid-template-columns: minmax(10rem, .35fr) minmax(0, 1.35fr); gap: clamp(2rem, 6vw, 8rem); align-content: center; }
+.possibility-question .section-code { color: var(--yellow); }
+.possibility-question h2 { max-width: 14ch; margin: 0; font: 590 clamp(3.3rem, 7.5vw, 8.2rem)/.88 Anybody, sans-serif; font-variation-settings: "wdth" 108; letter-spacing: -.065em; }
+.possibility-question > p:last-child { grid-column: 2; max-width: 38rem; margin: 1rem 0 0; color: color-mix(in srgb, var(--paper) 72%, transparent); }
+.possibility-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); color: #12130f; }
+.possibility-fields article { min-height: 34rem; display: flex; flex-direction: column; justify-content: space-between; gap: 3rem; padding: clamp(1.5rem, 4vw, 4.5rem); border: 1px solid rgba(18,19,15,.3); }
+.possibility-fields article:nth-child(1) { background: var(--lavender); }
+.possibility-fields article:nth-child(2) { background: var(--mint); }
+.possibility-fields article:nth-child(3) { background: var(--yellow); }
+.possibility-fields h3 { max-width: 9ch; margin: 0; font: 620 clamp(2.5rem, 4.6vw, 5.2rem)/.9 Anybody, sans-serif; font-variation-settings: "wdth" 110; letter-spacing: -.055em; }
+.possibility-fields p { max-width: 30ch; margin: 0; font-size: clamp(1.1rem, 1.5vw, 1.4rem); line-height: 1.3; }
+.possibility-end { margin: 0; padding: clamp(3rem, 7vw, 7rem) var(--pad); background: var(--blue); color: #fff; font: 600 clamp(2.5rem, 5.5vw, 6.2rem)/.92 Anybody, sans-serif; font-variation-settings: "wdth" 109; letter-spacing: -.055em; }
 
 .method { background: var(--ice); }
 .lab-loop { max-width: var(--max); margin: auto; list-style: none; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); }
@@ -251,6 +261,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .experiment-arrow { font-size: 1.2rem; }
 
 .two-lenses { background: var(--ice); overflow: hidden; }
+.two-lenses .section-heading h2 { max-width: 13ch; font-size: clamp(2.8rem, 5.4vw, 6rem); }
 .lens-stage { max-width: var(--max); margin: auto; display: grid; grid-template-columns: 1fr 1fr; }
 .lens { min-height: 34rem; padding: clamp(1.6rem, 4vw, 4rem); display: flex; flex-direction: column; justify-content: space-between; color: #12130f; }
 .lens p { max-width: 26ch; margin: auto 0 0; font-size: clamp(1.6rem, 3.1vw, 3.1rem); line-height: 1.07; }
@@ -259,6 +270,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .test-this { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(8rem, .4fr) 1fr; gap: 2rem; align-items: center; background: var(--paper); color: var(--ink); border: 2px solid var(--coral); border-top-width: .7rem; padding: 1.35rem clamp(1.4rem, 4vw, 4rem); }
 .test-this strong { font: 600 1rem/1 Anybody, sans-serif; }
 .test-this span { font-size: clamp(1rem, 1.4vw, 1.25rem); }
+.reality-boundary { max-width: 62rem; margin: clamp(3rem, 7vw, 6rem) auto 0; padding-left: 1.4rem; border-left: 5px solid var(--blue); font-size: clamp(1.35rem, 2.2vw, 2rem); line-height: 1.25; }
 
 .not-this { display: grid; grid-template-columns: .8fr 1.2fr; min-height: 80svh; padding-block: 0; background: var(--paper); }
 .boundary-visual { display: grid; place-items: center; background: var(--coral); color: #12130f; overflow: hidden; }
@@ -353,6 +365,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .book-subtitle { max-width: 14ch; margin: 0 0 1.5rem; font: 600 clamp(2.2rem, 4vw, 4rem)/.96 Anybody, sans-serif; letter-spacing: -.045em; }
 .book-byline { margin: 0 0 1.5rem; padding: 1rem 0; border-block: 1px solid var(--rule); font-size: clamp(1.05rem, 1.35vw, 1.25rem); line-height: 1.35; }
 .book-byline strong { font-family: Anybody, sans-serif; font-weight: 620; }
+.book-byline span { display: inline-block; margin-top: .55rem; color: var(--muted); font-size: .9rem; }
 .book-deck { max-width: 36rem; font-size: clamp(1.25rem, 1.8vw, 1.65rem); line-height: 1.3; }
 .book-status { display: inline-block; margin-top: 2rem; padding: .65rem .85rem; background: var(--yellow); color: #12130f; font: 500 .72rem/1 "IBM Plex Mono", monospace; }
 .book-authors { background: var(--paper); }
@@ -373,6 +386,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .book-premise h2 { max-width: 11ch; margin: 1.5rem 0 0; font: 620 clamp(3.3rem, 7vw, 7.5rem)/.88 Anybody, sans-serif; letter-spacing: -.06em; }
 .book-premise-copy { align-self: end; max-width: 42rem; font-size: clamp(1.2rem, 1.8vw, 1.6rem); }
 .book-premise-copy blockquote { margin: 2.5rem 0 0; padding-left: 1.5rem; border-left: 5px solid var(--blue); font-style: italic; }
+.book-title-explainer { max-width: none; margin: 0; background: var(--yellow); color: #12130f; }
+.book-title-explainer .section-code { color: #12130f; }
 .outline { background: var(--ice); }
 .outline-intro { max-width: var(--max); margin: 0 auto clamp(4rem, 8vw, 7rem); display: grid; grid-template-columns: .65fr 1.35fr; gap: 3rem; }
 .outline-intro h2 { max-width: 10ch; margin: 1rem 0 0; font: 620 clamp(3.5rem, 7vw, 7.5rem)/.87 Anybody, sans-serif; letter-spacing: -.06em; }
@@ -491,8 +506,12 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .practice-content { min-height: 32rem; padding: 1.3rem; }
   .practice-step { font-size:clamp(1.8rem,8.2vw,2.8rem); }
   .safety-note { grid-template-columns: 1fr; }
-  .manifesto { min-height:80svh; }
-  .manifesto blockquote { margin-left:0; font-size:clamp(3rem,14.5vw,5.8rem); }
+  .possibility-question { min-height: auto; display: block; }
+  .possibility-question h2 { margin-top: 2rem; font-size: clamp(3rem, 14vw, 5.8rem); }
+  .possibility-question > p:last-child { margin-top: 2rem; }
+  .possibility-fields { grid-template-columns: 1fr; }
+  .possibility-fields article { min-height: 25rem; }
+  .possibility-end { font-size: clamp(2.7rem, 12.5vw, 4.6rem); }
   .lab-loop { grid-template-columns:1fr; }
   .lab-loop li { min-height:19rem; }
   .lab-loop li + li { border-left:1px solid rgba(18,19,15,.38); border-top:0; }

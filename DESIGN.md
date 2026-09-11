@@ -2,7 +2,7 @@
 
 ## Product context
 
-- **What this is:** An open inquiry where people investigate thought, emotion, identity, and the self through short practices they can verify in direct experience.
+- **What this is:** An open inquiry where people investigate mind, consciousness, emotion, identity, the apparent self, and the limits of thought through short practices they can verify in direct experience.
 - **Who it is for:** Curious Gen Z and millennial visitors tired of treating their inner lives as permanent self-improvement projects.
 - **Project type:** Static marketing site, interactive open inquiry, and growing publication.
 - **Primary action:** Run an experiment. Secondary action: follow the inquiry.
@@ -12,6 +12,15 @@
 - **Direction:** The Open Inquiry.
 - **Mood:** Clear, alive, skeptical, and humane. More direct observation than sanctuary. More participation than teaching.
 - **Visual rule:** Color is assigned to meaning and large observation fields, not sprinkled through interface decoration.
+
+## Narrative architecture
+
+- Begin with an ordinary, recognizable problem before widening the inquiry to consciousness or reality.
+- Separate three levels of language: what can be observed directly, what may become possible, and what remains an open philosophical question.
+- Headlines may be provocative; supporting copy must make the claim’s level clear.
+- “The mind” refers contextually to thought, memory, interpretation, prediction, and the mental model of “me,” not to the brain or intelligence as a whole.
+- Direct experience may question assumptions about reality but does not by itself prove what the universe is made of.
+- Clarity, peace, and power mean clearer perception, less added conflict, and greater capacity to respond and create. They are possibilities to examine, not promised outcomes.
 
 ## Typography
 
@@ -79,3 +88,5 @@ Never use all accents in a single small component. Large color fields can combin
 | 2026-09-10 | Replaced “live lab” with “open inquiry” | The public framing should feel welcoming to non-technical, non-clinical visitors while retaining rigor through experiments and verification. |
 | 2026-09-10 | Made the book’s two voices visible | A split lavender–blue–mint conversation field identifies Amit Rathore and The Psychologist without relying on generic biography cards or inventing credentials. |
 | 2026-09-10 | Documented neutral and dark-theme tokens | Supporting colors now remain governed by the same semantic, accessible color system as the primary palette. |
+| 2026-09-10 | Named the book *Unduality: When the Mind Ends* | The title is provocative while the book page makes clear that thought and practical functioning remain; what is examined is the mind’s claim to be the central controller. |
+| 2026-09-10 | Made the public language bolder without turning it into doctrine | Strong questions now carry the ambition while supporting copy distinguishes observation, possibility, and inference. |

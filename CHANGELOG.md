@@ -2,6 +2,15 @@
 
 All notable changes to Unduality are documented here.
 
+## [0.1.1.0] - 2026-09-11
+
+### Changed
+
+- Rename the forthcoming book to *Unduality: When the Mind Ends* and clarify what the title does, and does not, mean.
+- Recenter the public narrative on mind, consciousness, the apparent inner controller, and the limits of thought through bolder questions visitors can examine directly.
+- Present clarity, peace, and power as open possibilities without promising outcomes or collapsing questions about experience into claims about the universe.
+- Identify The Psychologist as an unannounced human collaborator without inventing a biography or credentials.
+
 ## [0.1.0.0] - 2026-09-10
 
 ### Added
