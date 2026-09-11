@@ -2,6 +2,13 @@
 
 All notable changes to Unduality are documented here.
 
+## [0.1.1.1] - 2026-09-11
+
+### Changed
+
+- Replace the homepage sharing card with an outcome-led composition centered on clarity without certainty, peace without denial, and power without control.
+- Refresh homepage and Guides social metadata and use a new image URL to avoid stale platform caches.
+
 ## [0.1.1.0] - 2026-09-11
 
 ### Changed
