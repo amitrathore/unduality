@@ -64,7 +64,7 @@ Never use all accents in a single small component. Large color fields can combin
 ## Assets
 
 - **Favicon:** Interrupted U on inquiry blue. It reads as a U at 16px while never fully closing.
-- **Homepage OG:** “WHO IS READING THIS?” with WHO corrected to WHAT, plus an observation field.
+- **Homepage OG:** Three connected outcome fields: “Clarity without certainty. Peace without denial. Power without control.” The qualifiers keep the possibilities open rather than promising results.
 - **Experiment OG:** A distinct blue observation plate and the experiment's exact question.
 
 ## Safety and accessibility
@@ -90,3 +90,4 @@ Never use all accents in a single small component. Large color fields can combin
 | 2026-09-10 | Documented neutral and dark-theme tokens | Supporting colors now remain governed by the same semantic, accessible color system as the primary palette. |
 | 2026-09-10 | Named the book *Unduality: When the Mind Ends* | The title is provocative while the book page makes clear that thought and practical functioning remain; what is examined is the mind’s claim to be the central controller. |
 | 2026-09-10 | Made the public language bolder without turning it into doctrine | Strong questions now carry the ambition while supporting copy distinguishes observation, possibility, and inference. |
+| 2026-09-11 | Made the homepage sharing card outcome-led | Clarity, peace, and power answer why the inquiry matters, while their qualifiers preserve skepticism and avoid promised transformation. |

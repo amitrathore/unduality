@@ -2,6 +2,13 @@
 
 All notable changes to Unduality are documented here.
 
+## [0.1.1.1] - 2026-09-11
+
+### Changed
+
+- Shared homepage links now foreground clarity without certainty, peace without denial, and power without control.
+- Homepage and Guides previews now include complete accessible metadata and a fresh image URL that avoids stale platform caches.
+
 ## [0.1.1.0] - 2026-09-11
 
 ### Changed
