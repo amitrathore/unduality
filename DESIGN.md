@@ -91,3 +91,4 @@ Never use all accents in a single small component. Large color fields can combin
 | 2026-09-10 | Named the book *Unduality: When the Mind Ends* | The title is provocative while the book page makes clear that thought and practical functioning remain; what is examined is the mind’s claim to be the central controller. |
 | 2026-09-10 | Made the public language bolder without turning it into doctrine | Strong questions now carry the ambition while supporting copy distinguishes observation, possibility, and inference. |
 | 2026-09-11 | Made the homepage sharing card outcome-led | Clarity, peace, and power answer why the inquiry matters, while their qualifiers preserve skepticism and avoid promised transformation. |
+| 2026-09-17 | Introduced Sessions with Amit separately from the future Guides program | Two sequential levels use ruled sections with visible facilitators, duration, pricing, and preparation. The offering is coming soon, with email registration of interest. |

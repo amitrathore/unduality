@@ -2,6 +2,17 @@
 
 All notable changes to Unduality are documented here.
 
+## [0.1.2.0] - 2026-09-17
+
+### Added
+
+- Introduce two levels of Unduality Sessions: 50-minute online explorations with assisted preparation, per-session pricing, and email registration of interest.
+- Add a dedicated Sessions page, homepage introduction, navigation links, and sharing metadata.
+
+### Changed
+
+- Distinguish future Guide-led sessions from sessions with Amit and document the Level 1 prerequisite and recommended preparation.
+
 ## [0.1.1.1] - 2026-09-11
 
 ### Changed

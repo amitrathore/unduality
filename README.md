@@ -4,6 +4,12 @@ A static, responsive launch site and first interactive practice for the Undualit
 
 The public site also includes an upcoming-book page at `/book/`, based on the project's 22-dialogue working outline, and a coming-soon Unduality Guides page at `/guides/`.
 
+## Unduality Sessions
+
+`/sessions/` presents two coming-soon levels of private, 50-minute online video exploration: Assisted Exploration with Amit and a qualified psychologist ($249 USD per session), and Direct Exploration with Amit without a psychologist ($499 USD per session). At least one completed Level 1 session is required before Level 2; two are recommended and three or more are encouraged. Both levels are nonclinical inquiry.
+
+Interest is handled through email to `hello@unduality.com`; there is no booking, payment, or automated eligibility system. Confirm the prerequisite manually when scheduling opens. The future Guides program remains separate.
+
 ## Local preview
 
 Because the site uses root-relative asset paths, serve it locally rather than opening `index.html` directly:
